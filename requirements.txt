@@ -9,3 +9,4 @@ PyYAML==5.4.1
 SQLAlchemy==1.4.1
 Werkzeug==1.0.1
 flask_mysqldb
+gunicorn
