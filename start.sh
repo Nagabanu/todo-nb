@@ -5,6 +5,7 @@
 #Remove Existing Installation. Comment Out these lines if not needed
 #
 echo 'Removing previous mysql server installation and MariaDB'
+apt-get install sudo -y && sudo apt update  && sudo apt-get install yum  
 sudo systemctl stop mysqld.service && sudo yum remove -y mysql-community-server && sudo rm -rf /var/lib/mysql && sudo rm -rf /var/log/mysqld.
 log && sudo rm -rf /etc/my.cnf
 sudo yum erase mariadb* -y
