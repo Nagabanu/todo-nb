@@ -11,7 +11,7 @@ python >= 3.5
 ## Getting started
 
 ```bash
-git clone https://github.com/a2975667/flask-gcp-mysql-demo.git
+git clone https://github.com/Nagabanu/todo-nb.git
 cd flask-gcp-mysql-demo
 python -m venv .venv
 source .venv/bin/activate
