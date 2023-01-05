@@ -12,7 +12,7 @@ python >= 3.5
 
 ```bash
 git clone https://github.com/Nagabanu/todo-nb.git
-cd flask-gcp-mysql-demo
+cd todo-nb
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
